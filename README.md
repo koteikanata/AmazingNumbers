@@ -11,9 +11,9 @@ Your task at this stage is to write a program that prints the natural number par
 
 Do you know how to determine whether a number is divisible by 7 or not? We have a great tip:
 
-Remove the last digit;
-Multiply the removed digit by 2 and subtract it from the remaining number.
-If the result of the subtraction can be divided by 7, then the initial number is divisible by 7. You can apply the whole sequence multiple times until you get a relatively small/easy-to-interpret subtraction result.
+1. Remove the last digit;
+2. Multiply the removed digit by 2 and subtract it from the remaining number.
+3. If the result of the subtraction can be divided by 7, then the initial number is divisible by 7. You can apply the whole sequence multiple times until you get a relatively small/easy-to-interpret subtraction result.
 For example, take 196. We remove the last digit and get 19. We subtract 12 (the removed digit multiplied by 2) to get 7. Since the last left digit is 7, the number is multiple of 7. So 196 is a Buzz number!
 
 You can use any solution you want, the tests won't check it.
